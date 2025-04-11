@@ -19,7 +19,7 @@ public class modul2no2 {
     }
     public double volume_kerucut(int diameter, double tinggi){
         int jari_jari = diameter / 2;
-        double total = (Math.pow(jari_jari,2) * Math.PI / 3;
+        double total = (Math.pow(jari_jari,2) * Math.PI * tinggi) / 3;
         return total;  
     }
     public double volume_bola(int diameter){
